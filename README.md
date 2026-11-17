@@ -1,50 +1,54 @@
-# Awesome-Hybrid-Cloud-Infrastructure-Backup
+# Awesome-Hybrid-Cloud-Infrastructure-Backup ☁️💾
 
-# Awesome-Hybrid-Cloud-Infrastructure-Backup
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Hybrid Cloud Infrastructure Backup Banner" width="100%" />
+</p>
 
-## Top Hybrid Cloud Infrastructure Backup
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Hybrid-Cloud-Infrastructure-Backup/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Hybrid-Cloud-Infrastructure-Backup?style=flat-square&color=gold" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Hybrid-Cloud-Infrastructure-Backup/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Hybrid-Cloud-Infrastructure-Backup?style=flat-square&color=blue" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Hybrid-Cloud-Infrastructure-Backup/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License: MIT" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Hybrid-Cloud-Infrastructure-Backup/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**
+---
 
+## 📖 Introduction & Overview
 
+> **Curated List of Enterprise SaaS Platforms & Modern Open-Source Hybrid Cloud Backup Engines**  
+> *Focused on Hybrid Cloud Backup, On-Premises to Cloud Data Protection, Virtualized Infrastructure Backup, Kubernetes Data Resilience, and Multi-Cloud Disaster Recovery.*
 
-*Focused on Hybrid Cloud Backup, On-Prem + Cloud Data Protection, Infrastructure Backup & Multi-Cloud Recovery*
+**Last updated:** November 2026 📅
 
+This repository tracks notable **SaaS / commercial platforms** and **open-source projects** for **Hybrid Cloud Infrastructure Backup**. These solutions protect physical, virtual (VMware, Hyper-V, KVM, Proxmox), containerized (Kubernetes, OpenShift), and cloud workloads by orchestrating on-premises primary backup copies with public and private cloud storage targets for immutable retention, ransomware air-gapping, disaster recovery, and long-term compliance storage.
 
+---
 
-**Last updated: November 2026**
+## 📑 Table of Contents
 
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 SaaS/Hosted Platforms](#-saashosted-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+  - [Architectural Frameworks & Best Practices](#-architectural-frameworks--best-practices)
+- [📈 Star History](#-star-history)
+- [🤝 Support & Sponsorship](#-support--sponsorship)
+- [🛠️ How to Contribute](#️-how-to-contribute)
+- [⚖️ Disclaimer](#️-disclaimer)
 
+---
 
-This repository tracks notable **SaaS / commercial platforms** and **open-source projects** for **Hybrid Cloud Infrastructure Backup**. These solutions protect physical, virtual, and cloud workloads by combining on-premises backup infrastructure with public or private cloud targets for retention, disaster recovery, and long-term storage.
+## 📊 Sector Overview & Market Dynamics
 
+The global cloud backup and disaster recovery solutions market is estimated at approximately **$17B–$23B** (projected to reach over **$200B by the early 2030s** with a CAGR exceeding **25%**), underpinned by hybrid architectures across over **70% of enterprise environments**. 
 
+The market exhibits **moderate fragmentation**: while hyperscalers (Microsoft, AWS) and consolidated cybersecurity/data resilience giants (Veeam, Cohesity/Veritas, Rubrik, Commvault) capture the lion's share of enterprise budgets, specialized MSP appliances and pure-play disaster recovery vendors maintain robust defensible footholds.
 
-**Examples** include Druva Hybrid Cloud Backup, Veeam Cloud Connect, Commvault Hybrid Cloud, Cohesity DataProtect Hybrid, Rubrik Cloud Cluster, Acronis Cyber Protect Hybrid, Datto SIRIS Hybrid, Zerto Hybrid Cloud, Microsoft Azure Backup Server, AWS Storage Gateway, and Quest NetVault (the category leaders).
+---
 
-
-
-**Open-source emphasis**: Commercial hybrid backup platforms lead in enterprise features and support, but powerful open-source alternatives exist. **Bareos**, **Bacula**, **Proxmox Backup Server**, **Restic**, **BorgBackup**, **Kopia**, **UrBackup**, and related projects enable fully self-hosted or hybrid backup architectures with strong encryption, deduplication, and cloud backend support. This section is heavily expanded.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## Sector Overview & Market Dynamics
-
-The global cloud backup and disaster recovery solutions market is estimated at approximately $17B–$23B (projected to reach over $200B by the early 2030s with a CAGR exceeding 25%), underpinned by hybrid architectures across over 70% of enterprise environments. The market exhibits moderate fragmentation: while hyperscalers (Microsoft, AWS) and consolidated cybersecurity/resilience giants (Veeam, Cohesity/Veritas, Rubrik, Commvault) capture the lion's share of enterprise budgets, specialized MSP appliances and pure-play disaster recovery vendors maintain robust defensible footholds.
-
-## SaaS/Hosted Platforms
+## 🏢 SaaS/Hosted Platforms
 
 | Platform | Organization Scale (Valuation / Revenue) | Description | Pricing (Starting Tier) | Free Tier Limits / Free Trial |
 | :--- | :--- | :--- | :--- | :--- |
@@ -60,118 +64,127 @@ The global cloud backup and disaster recovery solutions market is estimated at a
 | **[Druva Hybrid Cloud Backup](https://www.druva.com/)** | $2.0B Valuation (Series H) / $200M+ SaaS ARR | Cloud-native data protection platform with hybrid capabilities for endpoints, servers, and workloads, offering centralized management and cloud storage. | Hybrid server workloads start at ~$210–$250/TB/month (post-deduplication); SaaS/M365 modules start at ~$8/user/month | 30-day free trial (self-service evaluation across hybrid server & SaaS workloads) |
 | **[Zerto Hybrid Cloud](https://www.zerto.com/)** | $374M Acquisition Price (Parent: HPE) / ~$100M+ Rev | Continuous data protection and disaster recovery platform focused on virtualized and hybrid cloud environments with near-zero RPOs. | Enterprise Cloud Edition (ECE) starts at ~$1,400–$2,200/VM/year (volume tiers scale down to $400–$800/VM/year) | 14-day software trial (or 30-day in-cloud marketplace trial), capped at protecting up to 10–15 VMs |
 
+---
 
+## 🔓 Open-Source GitHub Projects
 
-## Open-Source GitHub Projects
+Commercial hybrid backup platforms lead in turn-key enterprise support, but open-source solutions provide unmatched sovereignty, auditability, and zero per-workload software licensing fees.
 
-- **[Bareos](https://github.com/bareos/bareos)**  
+*Ranked in descending order by GitHub Stars:* 🌟
 
-  Fully open-source (AGPLv3) enterprise-grade network backup system with Director, Storage Daemon, and File Daemon components. Supports disk, tape, and S3-compatible object storage for true hybrid deployments.
+1. **[Rclone](https://github.com/rclone/rclone)** [![GitHub stars](https://img.shields.io/github/stars/rclone/rclone?style=social&color=white)](https://github.com/rclone/rclone/stargazers) 🌐  
+   *The Swiss Army knife of cloud storage.* Multi-threaded command-line program to sync and transfer files and directories to and from over 70 cloud object stores, including S3, B2, Azure Blob, Google Cloud Storage, SFTP, and WebDAV. Serves as a vital transport layer for hybrid backup automation.
 
+2. **[Restic](https://github.com/restic/restic)** [![GitHub stars](https://img.shields.io/github/stars/restic/restic?style=social&color=white)](https://github.com/restic/restic/stargazers) ⚡  
+   *Secure, fast, and lightweight backup program.* Written in Go with built-in cryptography and content-defined deduplication. Works natively with local disks, SFTP, and cloud storage targets (AWS S3, MinIO, Azure Blob, Google Cloud Storage, Backblaze B2).
 
+3. **[Duplicati](https://github.com/duplicati/duplicati)** [![GitHub stars](https://img.shields.io/github/stars/duplicati/duplicati?style=social&color=white)](https://github.com/duplicati/duplicati/stargazers) 🖥️  
+   *Free client-side encrypted backup software with a built-in web management interface.* Features AES-256 encryption, incremental backups, deduplication, and integration with S3, OneDrive, Google Drive, and generic cloud targets for hybrid server and endpoint protection.
 
-- **[Bacula Community](https://www.bacula.org/)**  
+4. **[Kopia](https://github.com/kopia/kopia)** [![GitHub stars](https://img.shields.io/github/stars/kopia/kopia?style=social&color=white)](https://github.com/kopia/kopia/stargazers) 🚀  
+   *Fast and secure open-source backup tool.* Features client-side end-to-end encryption, compression, and deduplication with native multi-cloud object storage connectivity (S3, B2, GCS, Azure Blob) and both CLI and desktop/web GUI interfaces.
 
-  Classic open-source backup architecture (Director + Storage + File Daemons) capable of protecting large heterogeneous environments and sending data to local or cloud storage targets.
+5. **[BorgBackup](https://github.com/borgbackup/borg)** [![GitHub stars](https://img.shields.io/github/stars/borgbackup/borg?style=social&color=white)](https://github.com/borgbackup/borg/stargazers) 🛡️  
+   *Deduplicating archiver with compression and authenticated encryption.* Industry-standard tool for efficient server infrastructure backups over SSH, supporting append-only repositories for ransomware protection.
 
+6. **[Velero](https://github.com/velero-io/velero)** [![GitHub stars](https://img.shields.io/github/stars/velero-io/velero?style=social&color=white)](https://github.com/velero-io/velero/stargazers) ☸️  
+   *Cloud-native disaster recovery for Kubernetes workloads.* Backs up and restores Kubernetes cluster resources and persistent volumes across on-premises clusters and public cloud infrastructure (AWS, Azure, GCP).
 
+7. **[Longhorn](https://github.com/longhorn/longhorn)** [![GitHub stars](https://img.shields.io/github/stars/longhorn/longhorn?style=social&color=white)](https://github.com/longhorn/longhorn/stargazers) 💾  
+   *Cloud-native distributed block storage built for Kubernetes.* Provides enterprise snapshotting, volume replication, and recurring automated backup synchronization directly to remote S3 or NFS targets.
 
-- **[Proxmox Backup Server](https://github.com/proxmox/proxmox-backup)**  
+8. **[Bup](https://github.com/bup/bup)** [![GitHub stars](https://img.shields.io/github/stars/bup/bup?style=social&color=white)](https://github.com/bup/bup/stargazers) 📦  
+   *Highly efficient backup system based on the Git packfile format.* Provides rolling-checksum deduplication capable of backing up large raw disk images and multi-terabyte virtual machine files over the network.
 
-  Open-source dedicated backup server with client-side encryption and efficient deduplication. Excellent for virtualized infrastructure and hybrid storage backends.
+9. **[Duplicacy](https://github.com/gilbertchen/duplicacy)** [![GitHub stars](https://img.shields.io/github/stars/gilbertchen/duplicacy?style=social&color=white)](https://github.com/gilbertchen/duplicacy/stargazers) 🔗  
+   *Lock-free deduplication backup engine.* Allows multiple clients to back up simultaneously to the same remote cloud or on-premises storage without coordination or locks, featuring client-side encryption.
 
+10. **[Borgmatic](https://github.com/witten/borgmatic)** [![GitHub stars](https://img.shields.io/github/stars/witten/borgmatic?style=social&color=white)](https://github.com/witten/borgmatic/stargazers) ⚙️  
+    *Simple, configuration-driven backup software for BorgBackup.* Automates database dumps (PostgreSQL, MySQL, SQLite, MongoDB), validates backup integrity, and dispatches monitoring alerts to healthcheck services.
 
+11. **[Autorestic](https://github.com/cupcakearmy/autorestic)** [![GitHub stars](https://img.shields.io/github/stars/cupcakearmy/autorestic?style=social&color=white)](https://github.com/cupcakearmy/autorestic/stargazers) 🤖  
+    *Config-driven CLI wrapper for Restic.* Simplifies backup orchestration across multiple locations, servers, and cloud backends using concise YAML configuration files.
 
-- **[Restic](https://github.com/restic/restic)**  
+12. **[Bareos](https://github.com/bareos/bareos)** [![GitHub stars](https://img.shields.io/github/stars/bareos/bareos?style=social&color=white)](https://github.com/bareos/bareos/stargazers) 🏢  
+    *Enterprise-grade network backup system (AGPLv3).* Fork of Bacula offering centralized Director, Storage Daemon, and cross-platform File Daemon agents. Seamlessly integrates on-prem disk/tape with S3-compatible cloud object storage.
 
-  Modern encrypted backup tool with excellent cloud backend support (S3, SFTP, Azure, GCS, REST server, and more via rclone). Ideal building block for hybrid infrastructure backup pipelines.
+13. **[UrBackup](https://github.com/uroni/urbackup_backend)** [![GitHub stars](https://img.shields.io/github/stars/uroni/urbackup_backend?style=social&color=white)](https://github.com/uroni/urbackup_backend/stargazers) 🖥️  
+    *Client/server backup system for mixed Windows and Linux environments.* Performs both file-level and live disk-image backups with a centralized web console and offsite Internet backup client functionality.
 
+14. **[Kanister](https://github.com/kanisterio/kanister)** [![GitHub stars](https://img.shields.io/github/stars/kanisterio/kanister?style=social&color=white)](https://github.com/kanisterio/kanister/stargazers) ☸️  
+    *Application-level data management framework for Kubernetes.* Enables application-consistent backup, restore, and mobility across hybrid Kubernetes environments using customizable operational blueprints.
 
+15. **[Burp](https://github.com/grke/burp)** [![GitHub stars](https://img.shields.io/github/stars/grke/burp?style=social&color=white)](https://github.com/grke/burp/stargazers) 🔒  
+    *Network backup and restore program.* Uses librsync to generate delta diffs and network-efficient snapshots over SSL across heterogeneous servers and storage endpoints.
 
-- **[BorgBackup](https://github.com/borgbackup/borg)**  
+16. **[Amanda](https://github.com/zmanda/amanda)** [![GitHub stars](https://img.shields.io/github/stars/zmanda/amanda?style=social&color=white)](https://github.com/zmanda/amanda/stargazers) 📜  
+    *Advanced Maryland Automatic Network Disk Archiver.* Battle-tested open-source network backup solution that coordinates backups from multiple client machines to a master server connected to tape drives, disks, or cloud storage.
 
-  Deduplicating and encrypting backup program widely used for efficient server and infrastructure backups over SSH or to remote repositories.
-
-
-
-- **[Kopia](https://github.com/kopia/kopia)**  
-
-  Cross-platform open-source backup solution with strong encryption, compression, deduplication, and native support for multiple cloud object stores.
-
-
-
-- **[UrBackup](https://github.com/uroni/urbackup_backend)**  
-
-  Open-source client/server backup system offering both file-level and image-based backups with a web interface, suitable for smaller hybrid environments.
-
-
-
-- **[Duplicati](https://github.com/duplicati/duplicati)**  
-
-  Free backup client with a web UI that supports a wide range of cloud storage providers, making it practical for hybrid endpoint and server protection.
-
-
-
-- **[Rclone](https://github.com/rclone/rclone)**  
-
-  Powerful open-source tool for syncing and transferring data to/from cloud storage. Frequently used as a transport layer in custom hybrid backup architectures.
-
-
-
-- **[Velero](https://github.com/vmware-tanzu/velero)**  
-
-  Open-source tool for backing up and restoring Kubernetes cluster resources and persistent volumes — essential for hybrid and multi-cloud container infrastructure protection.
-
-
-
-### Additional Strong Open-Source Options
-
-- Enterprise client/server backup: **Bareos**, **Bacula Community**, **UrBackup**.
-
-- Modern encrypted backup engines: **Restic**, **BorgBackup**, **Kopia**.
-
-- Virtualization / infrastructure focused: **Proxmox Backup Server**, **Velero**.
-
-- Cloud transport & sync: **Rclone**, **Duplicati**.
-
-- Accepting that commercial hybrid platforms (Veeam, Commvault, Cohesity, Rubrik, Druva, Acronis, Zerto, Azure Backup Server) still lead in application-aware backups, instant recovery, global scale management, SLA-backed support, and integrated ransomware protection features.
-
-
-
-**Frameworks for building custom systems**:  
-
-Use **Bareos** or **Bacula** as the central backup orchestrator → deploy File Daemons / agents on infrastructure → store primary backups on-premises and tier to S3-compatible storage with **Restic**, **Borg**, or **Kopia** → protect Kubernetes workloads with **Velero**. Ideal for organizations that require full control, data sovereignty, and freedom from per-workload commercial licensing.
-
-
-
-## How to Contribute
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Infrastructure backup and disaster recovery are mission-critical. Always perform regular restore tests, validate recovery time and recovery point objectives, and ensure encryption and retention policies meet your compliance needs. Open-source solutions provide transparency and cost advantages but require operational expertise. This list is not professional backup, disaster recovery, or compliance advice.
-
-
+17. **[Proxmox Backup Server](https://github.com/proxmox/proxmox-backup)** [![GitHub stars](https://img.shields.io/github/stars/proxmox/proxmox-backup?style=social&color=white)](https://github.com/proxmox/proxmox-backup/stargazers) 🖧  
+    *Enterprise backup solution for Proxmox VE virtual machines, containers, and physical hosts.* Features client-side encryption, Zstandard compression, and chunk-based deduplication for local and remote hybrid sync targets.
 
 ---
 
-**Made for infrastructure engineers, backup administrators, SREs, and open-source advocates.**
+### 🧩 Architectural Frameworks & Best Practices
 
+```text
+       [ Physical Servers / Bare-Metal / Databases ]   [ Kubernetes & VMs ]
+                                    │                           │
+                   ┌────────────────┴───────────────────────────┴────────────────┐
+                   ▼                                                             ▼
+         Orchestration Layer                                           Engine & Transport
+     (Bareos / Bacula / Borgmatic)                                   (Restic / Kopia / Rclone)
+                   │                                                             │
+                   ▼                                                             ▼
+     Primary On-Premises Backup Pool                               Remote Hybrid Cloud Vault
+       (Fast RTO / Deduplicated NAS)     ──────── Replicate ──────▶   (S3 / Glacier / Immutable)
+```
 
+- **Enterprise Client/Server Backups:** Deploy **Bareos**, **Bacula**, or **UrBackup** as the central director and storage scheduler.
+- **Modern Encrypted Snapshot Engines:** Utilize **Restic**, **BorgBackup**, or **Kopia** for client-side encrypted, block-level deduplicated backups.
+- **Container & Kubernetes Workloads:** Implement **Velero**, **Longhorn**, or **Kanister** for stateful persistent volumes and custom application blueprints.
+- **Hybrid Cloud Transport & Tiering:** Leverage **Rclone** for multi-cloud synchronizations and tiering from fast on-premises NVMe/disk caches to cold cloud object storage.
 
-Let's keep hybrid infrastructure protection powerful, transparent, and under your control.
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Hybrid-Cloud-Infrastructure-Backup&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Hybrid-Cloud-Infrastructure-Backup&type=date&legend=top-left)
+
+---
+
+## 🤝 Support & Sponsorship
+
+Thank you for visiting and using **Awesome-Hybrid-Cloud-Infrastructure-Backup**! ❤️
+
+If this curated repository has assisted you in designing, evaluating, or securing your hybrid cloud backup and disaster recovery architecture, please consider:
+- 🌟 **Starring** the repository on GitHub
+- 🍴 **Forking** and contributing new tools, fixes, or documentation
+- 📢 **Sharing** with your DevOps, SRE, and infrastructure engineering peers
+
+☕ If you would like to support ongoing maintenance and research, you can buy a coffee or sponsor this project at the **[GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007)**.
+
+---
+
+## 🛠️ How to Contribute
+
+Contributions are welcome and appreciated!
+
+1. 🍴 Fork the repository.
+2. 🌿 Create a feature branch (`git checkout -b feature/new-backup-tool`).
+3. 📝 Add or update entries in `README.md` (keep descriptions factual, objective, and adhere to formatting).
+4. 🚀 Submit a Pull Request with a clear description of the project.
+
+---
+
+## ⚖️ Disclaimer
+
+- This is an **independent, community-curated collection** — inclusion does not constitute a commercial endorsement.
+- Backup, disaster recovery, and compliance policies are mission-critical. Always conduct thorough restore verification drills, benchmark RPO/RTO metrics, and validate encryption key escrow procedures before relying on any solution in production.
+
+---
+
+<p align="center">
+  <b>Built for Infrastructure Engineers, SREs, Systems Administrators, and Cloud Architects.</b><br>
+  <i>Keep your hybrid infrastructure resilient, immutable, and under your control.</i>
+</p>
