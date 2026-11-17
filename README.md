@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Hybrid-Cloud-Infrastructure-Backup/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Hybrid-Cloud-Infrastructure-Backup?style=flat-square&color=gold" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Hybrid-Cloud-Infrastructure-Backup/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Hybrid-Cloud-Infrastructure-Backup?style=flat-square&color=gold" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Hybrid-Cloud-Infrastructure-Backup/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Hybrid-Cloud-Infrastructure-Backup?style=flat-square&color=blue" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Hybrid-Cloud-Infrastructure-Backup/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License: MIT" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Hybrid-Cloud-Infrastructure-Backup/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome" /></a>
@@ -70,57 +70,57 @@ The market exhibits **moderate fragmentation**: while hyperscalers (Microsoft, A
 
 Commercial hybrid backup platforms lead in turn-key enterprise support, but open-source solutions provide unmatched sovereignty, auditability, and zero per-workload software licensing fees.
 
-*Ranked in descending order by GitHub Stars:* 🌟
+*Ranked in descending order by GitHub_Stars:* 🌟
 
-1. **[Rclone](https://github.com/rclone/rclone)** [![GitHub stars](https://img.shields.io/github/stars/rclone/rclone?style=social&color=white)](https://github.com/rclone/rclone/stargazers) 🌐  
+1. **[Rclone](https://github.com/rclone/rclone)** [![GitHub_Stars](https://img.shields.io/github/stars/rclone/rclone?style=social&color=white)](https://github.com/rclone/rclone/stargazers) 🌐  
    *The Swiss Army knife of cloud storage.* Multi-threaded command-line program to sync and transfer files and directories to and from over 70 cloud object stores, including S3, B2, Azure Blob, Google Cloud Storage, SFTP, and WebDAV. Serves as a vital transport layer for hybrid backup automation.
 
-2. **[Restic](https://github.com/restic/restic)** [![GitHub stars](https://img.shields.io/github/stars/restic/restic?style=social&color=white)](https://github.com/restic/restic/stargazers) ⚡  
+2. **[Restic](https://github.com/restic/restic)** [![GitHub_Stars](https://img.shields.io/github/stars/restic/restic?style=social&color=white)](https://github.com/restic/restic/stargazers) ⚡  
    *Secure, fast, and lightweight backup program.* Written in Go with built-in cryptography and content-defined deduplication. Works natively with local disks, SFTP, and cloud storage targets (AWS S3, MinIO, Azure Blob, Google Cloud Storage, Backblaze B2).
 
-3. **[Duplicati](https://github.com/duplicati/duplicati)** [![GitHub stars](https://img.shields.io/github/stars/duplicati/duplicati?style=social&color=white)](https://github.com/duplicati/duplicati/stargazers) 🖥️  
+3. **[Duplicati](https://github.com/duplicati/duplicati)** [![GitHub_Stars](https://img.shields.io/github/stars/duplicati/duplicati?style=social&color=white)](https://github.com/duplicati/duplicati/stargazers) 🖥️  
    *Free client-side encrypted backup software with a built-in web management interface.* Features AES-256 encryption, incremental backups, deduplication, and integration with S3, OneDrive, Google Drive, and generic cloud targets for hybrid server and endpoint protection.
 
-4. **[Kopia](https://github.com/kopia/kopia)** [![GitHub stars](https://img.shields.io/github/stars/kopia/kopia?style=social&color=white)](https://github.com/kopia/kopia/stargazers) 🚀  
+4. **[Kopia](https://github.com/kopia/kopia)** [![GitHub_Stars](https://img.shields.io/github/stars/kopia/kopia?style=social&color=white)](https://github.com/kopia/kopia/stargazers) 🚀  
    *Fast and secure open-source backup tool.* Features client-side end-to-end encryption, compression, and deduplication with native multi-cloud object storage connectivity (S3, B2, GCS, Azure Blob) and both CLI and desktop/web GUI interfaces.
 
-5. **[BorgBackup](https://github.com/borgbackup/borg)** [![GitHub stars](https://img.shields.io/github/stars/borgbackup/borg?style=social&color=white)](https://github.com/borgbackup/borg/stargazers) 🛡️  
+5. **[BorgBackup](https://github.com/borgbackup/borg)** [![GitHub_Stars](https://img.shields.io/github/stars/borgbackup/borg?style=social&color=white)](https://github.com/borgbackup/borg/stargazers) 🛡️  
    *Deduplicating archiver with compression and authenticated encryption.* Industry-standard tool for efficient server infrastructure backups over SSH, supporting append-only repositories for ransomware protection.
 
-6. **[Velero](https://github.com/velero-io/velero)** [![GitHub stars](https://img.shields.io/github/stars/velero-io/velero?style=social&color=white)](https://github.com/velero-io/velero/stargazers) ☸️  
+6. **[Velero](https://github.com/velero-io/velero)** [![GitHub_Stars](https://img.shields.io/github/stars/velero-io/velero?style=social&color=white)](https://github.com/velero-io/velero/stargazers) ☸️  
    *Cloud-native disaster recovery for Kubernetes workloads.* Backs up and restores Kubernetes cluster resources and persistent volumes across on-premises clusters and public cloud infrastructure (AWS, Azure, GCP).
 
-7. **[Longhorn](https://github.com/longhorn/longhorn)** [![GitHub stars](https://img.shields.io/github/stars/longhorn/longhorn?style=social&color=white)](https://github.com/longhorn/longhorn/stargazers) 💾  
+7. **[Longhorn](https://github.com/longhorn/longhorn)** [![GitHub_Stars](https://img.shields.io/github/stars/longhorn/longhorn?style=social&color=white)](https://github.com/longhorn/longhorn/stargazers) 💾  
    *Cloud-native distributed block storage built for Kubernetes.* Provides enterprise snapshotting, volume replication, and recurring automated backup synchronization directly to remote S3 or NFS targets.
 
-8. **[Bup](https://github.com/bup/bup)** [![GitHub stars](https://img.shields.io/github/stars/bup/bup?style=social&color=white)](https://github.com/bup/bup/stargazers) 📦  
+8. **[Bup](https://github.com/bup/bup)** [![GitHub_Stars](https://img.shields.io/github/stars/bup/bup?style=social&color=white)](https://github.com/bup/bup/stargazers) 📦  
    *Highly efficient backup system based on the Git packfile format.* Provides rolling-checksum deduplication capable of backing up large raw disk images and multi-terabyte virtual machine files over the network.
 
-9. **[Duplicacy](https://github.com/gilbertchen/duplicacy)** [![GitHub stars](https://img.shields.io/github/stars/gilbertchen/duplicacy?style=social&color=white)](https://github.com/gilbertchen/duplicacy/stargazers) 🔗  
+9. **[Duplicacy](https://github.com/gilbertchen/duplicacy)** [![GitHub_Stars](https://img.shields.io/github/stars/gilbertchen/duplicacy?style=social&color=white)](https://github.com/gilbertchen/duplicacy/stargazers) 🔗  
    *Lock-free deduplication backup engine.* Allows multiple clients to back up simultaneously to the same remote cloud or on-premises storage without coordination or locks, featuring client-side encryption.
 
-10. **[Borgmatic](https://github.com/witten/borgmatic)** [![GitHub stars](https://img.shields.io/github/stars/witten/borgmatic?style=social&color=white)](https://github.com/witten/borgmatic/stargazers) ⚙️  
+10. **[Borgmatic](https://github.com/witten/borgmatic)** [![GitHub_Stars](https://img.shields.io/github/stars/witten/borgmatic?style=social&color=white)](https://github.com/witten/borgmatic/stargazers) ⚙️  
     *Simple, configuration-driven backup software for BorgBackup.* Automates database dumps (PostgreSQL, MySQL, SQLite, MongoDB), validates backup integrity, and dispatches monitoring alerts to healthcheck services.
 
-11. **[Autorestic](https://github.com/cupcakearmy/autorestic)** [![GitHub stars](https://img.shields.io/github/stars/cupcakearmy/autorestic?style=social&color=white)](https://github.com/cupcakearmy/autorestic/stargazers) 🤖  
+11. **[Autorestic](https://github.com/cupcakearmy/autorestic)** [![GitHub_Stars](https://img.shields.io/github/stars/cupcakearmy/autorestic?style=social&color=white)](https://github.com/cupcakearmy/autorestic/stargazers) 🤖  
     *Config-driven CLI wrapper for Restic.* Simplifies backup orchestration across multiple locations, servers, and cloud backends using concise YAML configuration files.
 
-12. **[Bareos](https://github.com/bareos/bareos)** [![GitHub stars](https://img.shields.io/github/stars/bareos/bareos?style=social&color=white)](https://github.com/bareos/bareos/stargazers) 🏢  
+12. **[Bareos](https://github.com/bareos/bareos)** [![GitHub_Stars](https://img.shields.io/github/stars/bareos/bareos?style=social&color=white)](https://github.com/bareos/bareos/stargazers) 🏢  
     *Enterprise-grade network backup system (AGPLv3).* Fork of Bacula offering centralized Director, Storage Daemon, and cross-platform File Daemon agents. Seamlessly integrates on-prem disk/tape with S3-compatible cloud object storage.
 
-13. **[UrBackup](https://github.com/uroni/urbackup_backend)** [![GitHub stars](https://img.shields.io/github/stars/uroni/urbackup_backend?style=social&color=white)](https://github.com/uroni/urbackup_backend/stargazers) 🖥️  
+13. **[UrBackup](https://github.com/uroni/urbackup_backend)** [![GitHub_Stars](https://img.shields.io/github/stars/uroni/urbackup_backend?style=social&color=white)](https://github.com/uroni/urbackup_backend/stargazers) 🖥️  
     *Client/server backup system for mixed Windows and Linux environments.* Performs both file-level and live disk-image backups with a centralized web console and offsite Internet backup client functionality.
 
-14. **[Kanister](https://github.com/kanisterio/kanister)** [![GitHub stars](https://img.shields.io/github/stars/kanisterio/kanister?style=social&color=white)](https://github.com/kanisterio/kanister/stargazers) ☸️  
+14. **[Kanister](https://github.com/kanisterio/kanister)** [![GitHub_Stars](https://img.shields.io/github/stars/kanisterio/kanister?style=social&color=white)](https://github.com/kanisterio/kanister/stargazers) ☸️  
     *Application-level data management framework for Kubernetes.* Enables application-consistent backup, restore, and mobility across hybrid Kubernetes environments using customizable operational blueprints.
 
-15. **[Burp](https://github.com/grke/burp)** [![GitHub stars](https://img.shields.io/github/stars/grke/burp?style=social&color=white)](https://github.com/grke/burp/stargazers) 🔒  
+15. **[Burp](https://github.com/grke/burp)** [![GitHub_Stars](https://img.shields.io/github/stars/grke/burp?style=social&color=white)](https://github.com/grke/burp/stargazers) 🔒  
     *Network backup and restore program.* Uses librsync to generate delta diffs and network-efficient snapshots over SSL across heterogeneous servers and storage endpoints.
 
-16. **[Amanda](https://github.com/zmanda/amanda)** [![GitHub stars](https://img.shields.io/github/stars/zmanda/amanda?style=social&color=white)](https://github.com/zmanda/amanda/stargazers) 📜  
+16. **[Amanda](https://github.com/zmanda/amanda)** [![GitHub_Stars](https://img.shields.io/github/stars/zmanda/amanda?style=social&color=white)](https://github.com/zmanda/amanda/stargazers) 📜  
     *Advanced Maryland Automatic Network Disk Archiver.* Battle-tested open-source network backup solution that coordinates backups from multiple client machines to a master server connected to tape drives, disks, or cloud storage.
 
-17. **[Proxmox Backup Server](https://github.com/proxmox/proxmox-backup)** [![GitHub stars](https://img.shields.io/github/stars/proxmox/proxmox-backup?style=social&color=white)](https://github.com/proxmox/proxmox-backup/stargazers) 🖧  
+17. **[Proxmox Backup Server](https://github.com/proxmox/proxmox-backup)** [![GitHub_Stars](https://img.shields.io/github/stars/proxmox/proxmox-backup?style=social&color=white)](https://github.com/proxmox/proxmox-backup/stargazers) 🖧  
     *Enterprise backup solution for Proxmox VE virtual machines, containers, and physical hosts.* Features client-side encryption, Zstandard compression, and chunk-based deduplication for local and remote hybrid sync targets.
 
 ---
